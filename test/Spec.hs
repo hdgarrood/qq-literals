@@ -1,4 +1,3 @@
-{-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE QuasiQuotes #-}
 
 import QQLiterals (qqLiteral)
