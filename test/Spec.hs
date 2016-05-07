@@ -1,6 +1,5 @@
 {-# LANGUAGE QuasiQuotes #-}
 
-import QQLiterals (qqLiteral)
 import Spec.Example (uri)
 import Network.URI (URI(..))
 

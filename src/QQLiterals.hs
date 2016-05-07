@@ -2,7 +2,6 @@
 {-# LANGUAGE RecordWildCards #-}
 module QQLiterals where
 
-import Data.Maybe (fromJust)
 import Language.Haskell.TH (appE, varE, stringE, Q, Name, reify)
 import Language.Haskell.TH.Quote (QuasiQuoter(..))
 
