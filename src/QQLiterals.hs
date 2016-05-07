@@ -2,7 +2,7 @@
 {-# LANGUAGE RecordWildCards #-}
 module QQLiterals where
 
-import Language.Haskell.TH (appE, varE, stringE, Q, Name, reify)
+import Language.Haskell.TH (varE, Name)
 import Language.Haskell.TH.Quote (QuasiQuoter(..))
 
 qqLiteral :: (String -> Either String a) -> Name -> QuasiQuoter
