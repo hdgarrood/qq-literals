@@ -1,7 +1,10 @@
 name:                qq-literals
 version:             0.1.0.0
 synopsis:            Compile-time checked literal values via QuasiQuoters.
-description:         Compile-time checked literal values via QuasiQuoters.
+description:         
+  qq-literals is a tiny Haskell library which gives you a way of easily
+  constructing QuasiQuoters for literals of any type a for which you can
+  provide a parsing function String -> Either String a.
 homepage:            https://github.com/hdgarrood/qq-literals
 license:             MIT
 license-file:        LICENSE
