@@ -10,7 +10,7 @@ qqLiteral parse parseFn = QuasiQuoter {..}
   where
   quoteExp str =
     case parse str of
-      Right _ -> [| case $(varE parseFn) str of { Right x -> x } |]
+      Right _ -> [| case $(varE parseFn) str of { Right x -> x; Left x -> error ("can't happen: " ++ show x)} |]
       Left err -> fail err
 
   quotePat  = unsupported "pattern"
