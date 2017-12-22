@@ -7,10 +7,9 @@ license:             MIT
 license-file:        LICENSE
 author:              Harry Garrood
 maintainer:          harry@garrood.me
-copyright:           2016 Harry Garrood
+copyright:           2016-2017 Harry Garrood
 build-type:          Simple
 cabal-version:       >=1.10
--- extra-source-files:
 
 library
   hs-source-dirs:      src
