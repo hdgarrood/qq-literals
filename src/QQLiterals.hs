@@ -65,5 +65,5 @@ qqLiteral parse parseFn = QuasiQuoter {..}
   quoteType = unsupported "type"
   quoteDec  = unsupported "declaration"
 
-  unsupported context = fail $
+  unsupported context _ = fail $
     "Unsupported operation: this QuasiQuoter can not be used in a " ++ context ++ " context."
