@@ -18,8 +18,8 @@ extra-source-files:  changelog.md
 library
   hs-source-dirs:      src
   exposed-modules:     QQLiterals
-  build-depends:       base >= 4.7 && < 5,
-                       template-haskell >= 2.10.0
+  build-depends:       base >= 4.9 && < 5,
+                       template-haskell >= 2.10.0 && < 3
   default-language:    Haskell2010
   ghc-options:         -Wall -Wincomplete-patterns
 
