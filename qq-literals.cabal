@@ -1,5 +1,5 @@
 name:                qq-literals
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Compile-time checked literal values via QuasiQuoters.
 description:         
   qq-literals is a tiny Haskell library which gives you a way of easily
