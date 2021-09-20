@@ -1,6 +1,6 @@
-## v0.1.0.2
+## v0.1.1.0
 
-- Re-export QuasiQuoter to enable user to not depend on template-haskell.
+- Re-export the QuasiQuoter type in order to allow users to avoid depending on template-haskell. (@TristanCacqueray, #4)
 
 ## v0.1.0.1
 
