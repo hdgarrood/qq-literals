@@ -5,7 +5,7 @@
 -- of any type @a@ for which you can write a parsing function @String -> Either
 -- String a@.
 --
-module QQLiterals where
+module QQLiterals (qqLiteral, QuasiQuoter) where
 
 import Language.Haskell.TH (varE, Name)
 import Language.Haskell.TH.Quote (QuasiQuoter(..))
